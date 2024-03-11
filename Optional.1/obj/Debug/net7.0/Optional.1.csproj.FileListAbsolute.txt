@@ -1,0 +1,14 @@
+C:\Projects\.NET 6.0\Optional.1\Optional.1\bin\Debug\net7.0\Optional.1.exe
+C:\Projects\.NET 6.0\Optional.1\Optional.1\bin\Debug\net7.0\Optional.1.deps.json
+C:\Projects\.NET 6.0\Optional.1\Optional.1\bin\Debug\net7.0\Optional.1.runtimeconfig.json
+C:\Projects\.NET 6.0\Optional.1\Optional.1\bin\Debug\net7.0\Optional.1.dll
+C:\Projects\.NET 6.0\Optional.1\Optional.1\bin\Debug\net7.0\Optional.1.pdb
+C:\Projects\.NET 6.0\Optional.1\Optional.1\obj\Debug\net7.0\Optional.1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\.NET 6.0\Optional.1\Optional.1\obj\Debug\net7.0\Optional.1.AssemblyInfoInputs.cache
+C:\Projects\.NET 6.0\Optional.1\Optional.1\obj\Debug\net7.0\Optional.1.AssemblyInfo.cs
+C:\Projects\.NET 6.0\Optional.1\Optional.1\obj\Debug\net7.0\Optional.1.csproj.CoreCompileInputs.cache
+C:\Projects\.NET 6.0\Optional.1\Optional.1\obj\Debug\net7.0\Optional.1.dll
+C:\Projects\.NET 6.0\Optional.1\Optional.1\obj\Debug\net7.0\refint\Optional.1.dll
+C:\Projects\.NET 6.0\Optional.1\Optional.1\obj\Debug\net7.0\Optional.1.pdb
+C:\Projects\.NET 6.0\Optional.1\Optional.1\obj\Debug\net7.0\Optional.1.genruntimeconfig.cache
+C:\Projects\.NET 6.0\Optional.1\Optional.1\obj\Debug\net7.0\ref\Optional.1.dll
