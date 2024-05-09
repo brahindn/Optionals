@@ -6,23 +6,39 @@ public interface IMyList<in T>
 
 public class MyList<T> : IMyList<T>, IEnumerable
 {
-    private List<T> list = new List<T>();
-    public void Add(T t)
+    private const int DefaultCapacity = 5;
+    private T[] _items = new T[DefaultCapacity];
+    private int _index;
+
+    public void Add(T t)     //It's ok
     {
-        list.Add(t);
+        _items[_index] = t;    
+        _index++;
     }
 
     public T this[int index]
     {
-        get { return list[index]; }
-        set { list[index] = value; }
+        get { return _items[index]; }
+        set { _items[index] = value; }
     }
-
-    public int Count { get { return list.Count; } }
 
     public IEnumerator GetEnumerator()
     {
-        return list.GetEnumerator();
+        return _items.GetEnumerator();  //It's ok
+    }
+
+    public T[] ResizeArray(int newSize)
+    {
+        if(newSize < 0)
+        {
+            throw new ArgumentOutOfRangeException("Array's size must not be smaller 0");
+        }
+
+        T[] newArray = new T[newSize];
+        Array.Copy(_items, newArray, Math.Min(_items.Length, newSize)); 
+        _items = newArray;
+
+        return _items;
     }
 }
 
@@ -39,14 +55,19 @@ internal class Program
         list.Add(4);
         list.Add(5);
 
-        for (int i = 0; i < list.Count; i++)
+        foreach (var l in list)
         {
-            Console.WriteLine(list[i]);
+            Console.WriteLine($"l is {l}");
         }
+        Console.WriteLine();
+
+
+        //New size
+        list.ResizeArray(10);
 
         foreach (var l in list)
         {
-            Console.WriteLine(l);
+            Console.WriteLine($"l of newSize is {l}");
         }
     }
 }

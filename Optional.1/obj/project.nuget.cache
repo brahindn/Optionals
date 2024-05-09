@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oYoAoh6Tcp1Dh7u6ZRaOADZTG8uTF23li/mUrABOUZ0ggN+u8brAUWaxlq2LWCAJTMVUk+QVXa6kDq8EXaBQyw==",
+  "dgSpecHash": "L6k6mMTiHojznpx9ifaLfwUnRifNlBe/bB/rufXZcTNuRy/MepqYL5jSZKL+pUxeZpMe07tRkbJlxcoqP4pWzQ==",
   "success": true,
-  "projectFilePath": "C:\\Projects\\.NET 6.0\\Optional.1\\Optional.1\\Optional.1.csproj",
+  "projectFilePath": "C:\\Projects\\.NET 6.0\\Optionals\\Optional.1\\Optional.1.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
